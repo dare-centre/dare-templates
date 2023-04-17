@@ -1,0 +1,100 @@
+/* @theme dare-theme */
+
+@import 'default';
+/* Font: */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+h1 {
+  color: #578930;
+  padding-bottom: 0.2em;
+}
+h2 {
+  color: #578930;
+  padding-bottom: 0.2em;
+}
+h3 {
+  color: #578930;
+  padding-bottom: 0.2em;
+}
+h4 {
+  color: #578930;
+  padding-bottom: 0.2em;
+}
+h5 {
+  color: #578930;
+  padding-bottom: 0.2em;
+}
+
+header {
+  color: #1f4e6d;
+  display: table;
+  font-size: 0.65em;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.header-col {
+  display: table-cell;
+  padding: 0.2em 1em;
+}
+
+.header-text {
+  text-align: left;
+  vertical-align: top;
+  padding-top: 1em;
+}
+
+.header-logo {
+  text-align: right;
+  vertical-align: middle;
+}
+
+.header-logo>img {
+  width: 450px;
+}
+
+/* for 2 columns */
+.columns {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+ul {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+a {
+  color: #4e9d35;
+}
+
+a:hover {
+  color: #303030;
+}
+
+section {
+  background-color: #fff;
+  color: #4a4a4a;
+  height: 1080px;
+  width: 1920px;
+  font-size: 3em;
+  font-family: lato,sans-serif;
+}
+
+/* Styling footer/page number */
+section::after {
+  font-weight: bold;
+  color: #fff;
+  text-align: right;
+  background-color: #578930;
+  width: 100%;
+  padding: 0.5em 1em;
+  font-size: 0.65em;
+  margin: 0;
+  bottom: 0px;
+  right: 0px;
+}
+
