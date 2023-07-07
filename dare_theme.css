@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 h1 {
-  color: #578930;
+    color: #1f4e6d;
   padding-bottom: 0.2em;
 }
 h2 {
@@ -15,14 +15,17 @@ h2 {
 h3 {
   color: #578930;
   padding-bottom: 0.2em;
+  text-align: center;
 }
 h4 {
-  color: #578930;
+  color: #1f4e6d;
   padding-bottom: 0.2em;
+  text-align: center;
 }
 h5 {
   color: #578930;
   padding-bottom: 0.2em;
+  text-align: center;
 }
 
 header {
@@ -49,10 +52,14 @@ header {
 .header-logo {
   text-align: right;
   vertical-align: middle;
+  padding: 0px;
+  margin: 0px;
 }
 
 .header-logo>img {
   width: 450px;
+  padding: 15px;
+  background-color: white;
 }
 
 /* for 2 columns */
@@ -75,12 +82,26 @@ a:hover {
   color: #303030;
 }
 
+/* custom title page stuff */
+.affil > p {
+  font-size: 32px;
+}
+
+/* for captioning figures */
+.caption {
+  text-align: center;
+  font-size: 20px;
+  font-style: italic;
+}
+
 section {
-  background-color: #fff;
-  color: #4a4a4a;
+  font-size: 32px;
+  background-image: url('imgs/Dare-Logo circle_10op.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 800px 800px;
   height: 1080px;
   width: 1920px;
-  font-size: 3em;
   font-family: lato,sans-serif;
 }
 
